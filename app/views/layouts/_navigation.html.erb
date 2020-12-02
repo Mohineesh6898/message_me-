@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3 fixed-top">
+  <div class="container">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <%=link_to 'Chatrrom',root_path,class:"nav-link navbar-brand"%>
+      <%=link_to 'Messages',login_path,class:"nav-link"%>
+      </div>
+      <div class="navbar-nav ml-auto">    
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Logout</a>
+          <a class="dropdown-item" href="#">Login</a>
+          <a class="dropdown-item" href="#">Signup</a>
+        </div>
+        </div>  
+        <%=link_to "SignUp",root_path,class:"btn btn-primary ml-3 "%>
+    </div>
+  </div>
+  </div>
+</nav>
